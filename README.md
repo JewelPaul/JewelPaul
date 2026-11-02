@@ -1,105 +1,141 @@
 <p align="center">
-  <img src="./assets/profile-header.svg" alt="Jewel Gabriel Paul — Technical Portfolio" width="100%" />
+  <img src="./assets/profile-header.svg" alt="Jewel Gabriel Paul — Technical Portfolio & Systems Lab" width="100%" />
 </p>
 
 <p align="center">
-  <a href="https://github.com/JewelPaul">GitHub</a>
-  &nbsp;·&nbsp;
-  <a href="mailto:jewelpaul2513@gmail.com">Email</a>
-  &nbsp;·&nbsp;
-  Bhopal, Madhya Pradesh, India
+  <a href="https://github.com/JewelPaul">
+    <img src="https://img.shields.io/badge/GitHub-JewelPaul-0D1117?style=for-the-badge&logo=github&logoColor=white" alt="GitHub" />
+  </a>
+  &nbsp;
+  <a href="mailto:jewelpaul2513@gmail.com">
+    <img src="https://img.shields.io/badge/Email-jewelpaul2513%40gmail.com-0EA5E9?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" />
+  </a>
+  &nbsp;
+  <img src="https://img.shields.io/badge/Location-Bhopal%2C%20India-1E293B?style=for-the-badge&logo=googlemaps&logoColor=2DD4BF" alt="Location" />
 </p>
 
----
-
-## About
-
-I am a second-year **B.Tech Computer Science and Engineering (Artificial Intelligence and Machine Learning)** student at **Lakshmi Narain College of Technology and Science (LNCTS)**, Bhopal.
-
-My work centers on applied artificial intelligence, multimodal AI workflows, and digital product development. Rather than treating AI as a single-model prompt box, I focus on how multiple complementary models and tools can be orchestrated together—selecting different systems for research, structured reasoning, comparative analysis, multimodal exploration, prototyping, and iterative product refinement.
-
-I am driven by taking software ideas beyond abstract concepts and engineering practical, clean digital experiences while continuously building strong engineering fundamentals.
+```bash
+$ jewelpaul --status
+> Pursuing: B.Tech CSE (AI & ML) @ LNCTS Bhopal [2nd Year]
+> Core Focus: Multi-Model AI Orchestration · Multimodal Workflows · Digital Products
+> Highlighted Build: BravoMail (Disposable Email Platform)
+> Availability: Open for innovative AI collaborations and software engineering discussions
+```
 
 ---
 
-## AI Workflows & Multi-Model Systems
+## ⚡ About Me
 
-A core strength of my workflow is combining distinct AI platforms to overcome individual model blind spots and achieve higher-fidelity outcomes:
+I am a second-year **B.Tech Computer Science and Engineering (Artificial Intelligence & Machine Learning)** student at **Lakshmi Narain College of Technology and Science (LNCTS)**, Bhopal.
 
-* **Primary Platforms:** ChatGPT, Google Gemini, Muse, Google Antigravity, and Ollama (local model inference).
-* **Multi-Model Orchestration & Comparative Reasoning:** Querying parallel model architectures on complex problems to cross-evaluate proposed solutions, contrast differing approaches, and synthesize robust implementations.
-* **Context Engineering & System Design:** Designing structured context prompts, persona constraints, and iterative feedback loops that produce reproducible technical plans and clean code.
-* **Multimodal Exploration:** Utilizing cross-modal inputs (vision, structured datasets, and natural language) to explore interface layouts, workflows, and visual architectures.
-* **AI-Assisted Prototyping & Iteration:** Accelerating the feedback cycle from conceptual architecture to functional web prototypes through continuous, disciplined refinement.
+I build software at the intersection of **applied artificial intelligence**, **multimodal AI workflows**, and **digital product experiences**. Instead of relying on a single AI model as a black box, my work focuses on multi-model synergy—harnessing the unique reasoning strengths of different AI systems to research, plan, compare solutions, test multimodal interfaces, and iterate rapidly from concept to working software.
+
+I enjoy translating product ideas into practical digital utilities while continuously strengthening my core computer science foundations.
 
 ---
 
-## Selected Projects
+## 🧠 AI Workflows & Multi-Model Synergy
 
-### [BravoMail](https://github.com/JewelPaul/BRAVOMAIL)
-**Active Web Project · Disposable Email Platform**
+I treat AI as an interactive systems workbench where diverse models collaborate:
 
-An independently developed, browser-based temporary email platform created to give users instant disposable email addresses and a privacy-focused inbox experience without registration.
+<p>
+  <img src="https://img.shields.io/badge/ChatGPT-74AA9C?style=flat-square&logo=openai&logoColor=white" alt="ChatGPT" />
+  <img src="https://img.shields.io/badge/Google%20Gemini-4285F4?style=flat-square&logo=googlegemini&logoColor=white" alt="Gemini" />
+  <img src="https://img.shields.io/badge/Ollama-000000?style=flat-square&logo=ollama&logoColor=white" alt="Ollama" />
+  <img src="https://img.shields.io/badge/Google%20Antigravity-0284C7?style=flat-square&logo=google&logoColor=white" alt="Antigravity" />
+  <img src="https://img.shields.io/badge/Muse-6366F1?style=flat-square&logo=visualstudiocode&logoColor=white" alt="Muse" />
+</p>
 
-* **Frontend Architecture:** Built with TypeScript, React 18, and Vite, featuring a component system powered by Tailwind CSS and Radix UI primitives.
-* **API Integration & Resilience:** Integrated with the `api.mail.tm` REST API with an automated CORS proxy fallback detection mechanism and exponential retry handling to maintain service reliability.
-* **Heuristic OTP Detection:** Designed a client-side regex engine (`otpDetection.ts`) that automatically analyzes incoming email text to extract, highlight, and enable one-click copying of numeric and alphanumeric authentication codes.
-* **State & Synchronization:** Utilizes TanStack React Query for efficient data fetching, caching, and periodic polling of inbox states.
+* **Multi-Model Orchestration & Comparative Reasoning:** Interrogating distinct model architectures in parallel on complex challenges to cross-validate answers, balance trade-offs, and synthesize high-reliability implementations.
+* **Context Engineering & Prompt Architecture:** Designing precise system contexts, modular prompt constraints, and structured feedback loops that generate robust technical architectures.
+* **Multimodal Exploration:** Utilizing cross-modal inputs (vision, structured tables, visual UI sketches) to iterate on interface layouts and interaction flows.
+* **Iterative Prototyping:** Accelerating the transition from initial system design to functional web prototypes through continuous AI-assisted testing and refinement.
 
 ---
 
-### AI-Integrated Financial Management
+## 🚀 Selected Projects
+
+### 🛡️ [BravoMail — Disposable Email Platform](https://github.com/JewelPaul/BRAVOMAIL)
+**Active Independent Web Project · Privacy & Temporary Email**
+
+An independently developed, browser-based temporary email service focused on disposable email addresses, privacy preservation, and an effortless inbox experience.
+
+<p>
+  <img src="https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white" alt="TypeScript" />
+  <img src="https://img.shields.io/badge/React%2018-20232A?style=flat-square&logo=react&logoColor=61DAFB" alt="React" />
+  <img src="https://img.shields.io/badge/Vite-646CFF?style=flat-square&logo=vite&logoColor=white" alt="Vite" />
+  <img src="https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=flat-square&logo=tailwind-css&logoColor=white" alt="Tailwind" />
+  <img src="https://img.shields.io/badge/TanStack_Query-FF4154?style=flat-square&logo=reactquery&logoColor=white" alt="TanStack Query" />
+</p>
+
+* **Frontend Architecture:** Built with TypeScript, React 18, and Vite, featuring component primitives powered by Radix UI, Lucide icons, and Tailwind CSS.
+* **Resilient API Layer:** Direct integration with the `api.mail.tm` REST API with automatic CORS proxy fallback detection and exponential retry mechanisms to guarantee service uptime.
+* **Smart OTP Extraction Engine:** Engineered a client-side regex engine (`otpDetection.ts`) that scans incoming emails, detects numeric and alphanumeric verification codes, and enables instant 1-click copying.
+* **State & Sync:** Powered by TanStack Query for background inbox polling, automatic cache invalidation, and seamless message rendering.
+
+---
+
+### 💳 AI-Integrated Financial Management
 **Upcoming Project · Personal Finance & Applied AI**
 
 A planned personal finance web application exploring how ambient AI assistance can simplify everyday financial tracking, budgeting, and account comprehension.
 
-* **Core Focus:** Clean transaction recording, automatic category classification, and structured financial summaries.
-* **AI Assistance:** Context-aware insights that explain spending patterns and provide intelligent query-based financial analysis without exposing sensitive credentials.
+* **Planned Highlights:** Clean transaction recording, automatic category classification, structured financial summaries, and intelligent insights.
 * **Status:** In concept development and architectural planning.
 
 ---
 
-### Interactive E-commerce Experience
+### 🛍️ Interactive E-commerce Experience
 **Upcoming Project · Digital Product Experience**
 
 An upcoming web application focused on building a holistic, interactive shopping journey that moves beyond basic product catalog listings.
 
-* **Core Focus:** Dynamic product discovery flows, interactive cart operations, streamlined checkout state simulation, and order lifecycle tracking.
-* **Design Objectives:** Polished interaction design, responsive desktop and mobile viewports, and clean UI state machines.
+* **Planned Highlights:** Dynamic product discovery flows, interactive cart operations, streamlined checkout state simulation, and order lifecycle tracking.
 * **Status:** In design and interface prototyping.
 
 ---
 
-## Focus Areas & Technical Toolkit
+## 🛠️ Technical Toolkit & Focus Areas
 
-### Areas of Focus
-Applied Artificial Intelligence · Multimodal AI Systems · Machine Learning & Deep Learning Foundations · AI-Assisted Product Workflows · Digital Product Development · Web Application Architecture
-
-### Languages & Web Technologies
-* **Languages:** TypeScript, JavaScript, HTML5, CSS3, Python
-* **Frontend Frameworks & Libraries:** React 18, Vite, Tailwind CSS, Radix UI primitives, TanStack React Query
-* **Tooling & Environment:** Git, GitHub, Node.js, VS Code, PowerShell
-
-### AI Platforms in Workflow
-ChatGPT · Google Gemini · Ollama · Google Antigravity · Muse
+| Category | Technologies & Tools |
+| :--- | :--- |
+| **Core Focus** | Applied Artificial Intelligence · Multimodal AI Systems · Machine Learning Foundations · Digital Product Development · Web Applications |
+| **Languages** | TypeScript, JavaScript, HTML5, CSS3, Python |
+| **Frontend & Web** | React 18, Vite, Tailwind CSS, Radix UI primitives, TanStack React Query |
+| **AI Tooling** | ChatGPT, Google Gemini, Ollama (Local Models), Google Antigravity, Muse |
+| **Developer Tools** | Git, GitHub, VS Code, Node.js, PowerShell |
 
 ---
 
-## Education
+## 🕹️ Contribution Activity & Interactive Snake
+
+The retro contribution arcade animation below tracks authentic GitHub contribution activity and is generated automatically every day by a scheduled GitHub Actions workflow published to this repository's `output` branch.
+
+<p align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/JewelPaul/JewelPaul/output/github-contribution-grid-snake-dark.svg" />
+    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/JewelPaul/JewelPaul/output/github-contribution-grid-snake.svg" />
+    <img alt="GitHub Contribution Snake Animation" src="https://raw.githubusercontent.com/JewelPaul/JewelPaul/output/github-contribution-grid-snake.svg" width="100%" />
+  </picture>
+</p>
+
+---
+
+## 🎓 Education
 
 **Lakshmi Narain College of Technology and Science (LNCTS)**  
 *Bachelor of Technology (B.Tech) — Computer Science & Engineering (Artificial Intelligence & Machine Learning)*  
 Currently pursuing **Second Year** · Bhopal, India
 
-| Qualification | Board / University | Result |
+| Qualification | Board / Institution | Performance |
 | :--- | :--- | :--- |
-| **B.Tech (CSE — AI & ML)** | LNCTS (RGPV) | *In Progress (2nd Year)* |
+| **B.Tech (CSE — AI & ML)** | LNCTS (RGPV) | **In Progress (2nd Year)** |
 | **Class XII (Senior Secondary)** | CBSE | **82%** |
 | **Class X (Secondary)** | CBSE | **95%** |
 
 ---
 
-## Certifications & Internship
+## 📜 Certifications & Internship
 
 ### Certifications & Professional Development
 * **Generative AI Mastermind** — Outskill
@@ -113,9 +149,7 @@ Currently pursuing **Second Year** · Bhopal, India
 
 ---
 
-## Contact
-
-Feel free to connect or reach out regarding projects, technology collaborations, or engineering ideas:
+## 📬 Connect
 
 * **GitHub:** [github.com/JewelPaul](https://github.com/JewelPaul)
 * **Email:** [jewelpaul2513@gmail.com](mailto:jewelpaul2513@gmail.com)
@@ -124,5 +158,5 @@ Feel free to connect or reach out regarding projects, technology collaborations,
 <br />
 
 <p align="center">
-  <sub>Curated technology portfolio · Jewel Gabriel Paul · Bhopal, India</sub>
+  <sub>Designed with precision & curiosity · Jewel Gabriel Paul · Bhopal, India</sub>
 </p>
