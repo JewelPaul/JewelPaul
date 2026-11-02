@@ -1,40 +1,101 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="300" viewBox="0 0 1200 300" role="img" aria-labelledby="title desc">
-  <title id="title">Jewel Gabriel Paul</title>
-  <desc id="desc">B.Tech Computer Science student specialising in Artificial Intelligence and Machine Learning, interested in AI workflows, multimodal tools and digital product development.</desc>
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="280" viewBox="0 0 1200 280" role="img" aria-labelledby="title desc">
+  <title id="title">Jewel Gabriel Paul — Technical Portfolio Header</title>
+  <desc id="desc">Second-year B.Tech CSE (AI &amp; ML) student at LNCTS Bhopal, focusing on Applied AI, Multimodal Workflows, and Digital Product Development.</desc>
   <defs>
-    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
-      <stop offset="0%" stop-color="#101827"/>
-      <stop offset="55%" stop-color="#132B3A"/>
-      <stop offset="100%" stop-color="#075B5C"/>
+    <!-- Background Gradient -->
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0D1117"/>
+      <stop offset="60%" stop-color="#111822"/>
+      <stop offset="100%" stop-color="#0B1C24"/>
     </linearGradient>
-    <radialGradient id="glow">
-      <stop offset="0%" stop-color="#2DD4BF" stop-opacity=".28"/>
-      <stop offset="100%" stop-color="#2DD4BF" stop-opacity="0"/>
+
+    <!-- Subtle Teal Radial Glow -->
+    <radialGradient id="tealGlow" cx="88%" cy="50%" r="55%" fx="88%" fy="50%">
+      <stop offset="0%" stop-color="#5AB8AE" stop-opacity="0.16"/>
+      <stop offset="50%" stop-color="#5AB8AE" stop-opacity="0.04"/>
+      <stop offset="100%" stop-color="#5AB8AE" stop-opacity="0"/>
     </radialGradient>
-    <pattern id="grid" width="28" height="28" patternUnits="userSpaceOnUse">
-      <path d="M28 0H0V28" fill="none" stroke="#D7F7F2" stroke-opacity=".055" stroke-width="1"/>
+
+    <!-- Structural Grid Pattern -->
+    <pattern id="editorialGrid" width="32" height="32" patternUnits="userSpaceOnUse">
+      <path d="M 32 0 L 0 0 0 32" fill="none" stroke="#30363D" stroke-opacity="0.22" stroke-width="0.8"/>
     </pattern>
+
+    <!-- Linear Accent Gradient -->
+    <linearGradient id="accentBar" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#5AB8AE"/>
+      <stop offset="100%" stop-color="#347871"/>
+    </linearGradient>
   </defs>
-  <rect width="1200" height="300" rx="22" fill="url(#bg)"/>
-  <rect width="1200" height="300" rx="22" fill="url(#grid)"/>
-  <circle cx="1015" cy="145" r="260" fill="url(#glow)"/>
-  <path d="M785 0C870 65 870 220 1010 300" fill="none" stroke="#5EEAD4" stroke-opacity=".16" stroke-width="2"/>
-  <path d="M850 0C935 75 935 225 1080 300" fill="none" stroke="#5EEAD4" stroke-opacity=".12" stroke-width="2"/>
-  <path d="M0 252C230 210 430 320 690 250" fill="none" stroke="#5EEAD4" stroke-opacity=".13" stroke-width="2"/>
-  <rect x="76" y="66" width="5" height="165" rx="2.5" fill="#5EEAD4"/>
-  <text x="108" y="125" fill="#F8FAFC" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="46" font-weight="700" letter-spacing=".4">JEWEL GABRIEL PAUL</text>
-  <text x="110" y="166" fill="#C9E7E5" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="21" font-weight="500">B.Tech CSE · Artificial Intelligence &amp; Machine Learning</text>
-  <text x="110" y="208" fill="#8FE2D7" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="16" letter-spacing=".25">AI WORKFLOWS  /  MULTIMODAL TOOLS  /  DIGITAL PRODUCTS</text>
-  <g transform="translate(965 147)">
-    <circle r="78" fill="#0B222D" fill-opacity=".55" stroke="#5EEAD4" stroke-opacity=".28" stroke-width="1.5"/>
-    <circle r="54" fill="none" stroke="#5EEAD4" stroke-opacity=".55" stroke-width="1.5"/>
-    <circle r="30" fill="#0F766E" fill-opacity=".55" stroke="#99F6E4" stroke-opacity=".7" stroke-width="1.5"/>
-    <path d="M-53 0H53M0 -53V53" stroke="#99F6E4" stroke-opacity=".25" stroke-width="1"/>
-    <circle cx="0" cy="-54" r="5" fill="#99F6E4"/>
-    <circle cx="47" cy="27" r="5" fill="#5EEAD4"/>
-    <circle cx="-38" cy="38" r="5" fill="#5EEAD4"/>
-    <text x="0" y="7" fill="#F0FDFA" text-anchor="middle" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="21" font-weight="700">AI/ML</text>
+
+  <style>
+    .mono { font-family: ui-monospace, SFMono-Regular, "SF Mono", Menlo, Consolas, "Liberation Mono", monospace; }
+    .sans { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Inter, Roboto, "Helvetica Neue", Arial, sans-serif; }
+    .title { font-weight: 700; fill: #F0F3F6; letter-spacing: 0.04em; }
+    .subtitle { font-weight: 500; fill: #9DA7B1; }
+    .focus-text { font-weight: 600; fill: #5AB8AE; letter-spacing: 0.12em; }
+    .meta-text { font-weight: 400; fill: #6E7681; letter-spacing: 0.08em; }
+  </style>
+
+  <!-- Container Box with Rounded Corners and Subtle Slate Border -->
+  <rect x="1" y="1" width="1198" height="278" rx="14" fill="url(#bgGrad)" stroke="#30363D" stroke-width="1.2"/>
+  
+  <!-- Subtle Grid Texture -->
+  <rect x="1" y="1" width="1198" height="278" rx="14" fill="url(#editorialGrid)"/>
+  
+  <!-- Ambient Glow Behind Geometric Visual -->
+  <rect x="1" y="1" width="1198" height="278" rx="14" fill="url(#tealGlow)"/>
+
+  <!-- Left Accent Anchor -->
+  <rect x="64" y="62" width="4" height="156" rx="2" fill="url(#accentBar)"/>
+
+  <!-- Content Group -->
+  <g transform="translate(92, 0)">
+    <!-- Overline Category -->
+    <text x="0" y="86" class="mono meta-text" font-size="12">PORTFOLIO &amp; TECHNICAL PROFILE</text>
+
+    <!-- Primary Title -->
+    <text x="0" y="132" class="sans title" font-size="40">JEWEL GABRIEL PAUL</text>
+
+    <!-- Subtitle: Academic & Institutional Affiliation -->
+    <text x="1" y="171" class="sans subtitle" font-size="19">Second-year B.Tech CSE (AI &amp; ML) Student · LNCTS Bhopal</text>
+
+    <!-- Supporting Focus Areas -->
+    <g transform="translate(1, 206)">
+      <!-- Minimalist Pill Badge -->
+      <rect x="0" y="-17" width="675" height="28" rx="6" fill="#161B22" stroke="#30363D" stroke-width="1"/>
+      <text x="14" y="2" class="mono focus-text" font-size="11.5">APPLIED AI  ·  MULTIMODAL AI WORKFLOWS  ·  DIGITAL PRODUCT DEVELOPMENT</text>
+    </g>
   </g>
-  <text x="1120" y="270" fill="#D1FAE5" fill-opacity=".7" text-anchor="end" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="12" letter-spacing="2">BHOPAL · INDIA</text>
+
+  <!-- Right Geometric Architectural Visual: Multi-Model Nexus -->
+  <g transform="translate(1035, 140)">
+    <!-- Orbital Guide Rings -->
+    <circle r="88" fill="none" stroke="#30363D" stroke-opacity="0.45" stroke-width="1" stroke-dasharray="3 3"/>
+    <circle r="64" fill="#161B22" fill-opacity="0.75" stroke="#30363D" stroke-width="1.2"/>
+    <circle r="42" fill="none" stroke="#5AB8AE" stroke-opacity="0.35" stroke-width="1.2"/>
+    
+    <!-- Coordinate Crosshairs -->
+    <line x1="-76" y1="0" x2="76" y2="0" stroke="#30363D" stroke-opacity="0.6" stroke-width="1"/>
+    <line x1="0" y1="-76" x2="0" y2="76" stroke="#30363D" stroke-opacity="0.6" stroke-width="1"/>
+
+    <!-- Dynamic Model Nodes -->
+    <circle cx="-42" cy="0" r="4" fill="#5AB8AE"/>
+    <circle cx="42" cy="0" r="4" fill="#5AB8AE"/>
+    <circle cx="0" cy="-42" r="4" fill="#5AB8AE"/>
+    <circle cx="0" cy="42" r="4" fill="#5AB8AE"/>
+
+    <circle cx="-30" cy="-30" r="2.5" fill="#9DA7B1" fill-opacity="0.7"/>
+    <circle cx="30" cy="30" r="2.5" fill="#9DA7B1" fill-opacity="0.7"/>
+    <circle cx="-30" cy="30" r="2.5" fill="#9DA7B1" fill-opacity="0.7"/>
+    <circle cx="30" cy="-30" r="2.5" fill="#9DA7B1" fill-opacity="0.7"/>
+
+    <!-- Central Nexus Badge -->
+    <rect x="-30" y="-14" width="60" height="28" rx="5" fill="#0D1117" stroke="#5AB8AE" stroke-width="1.2"/>
+    <text x="0" y="4" class="mono" font-size="11" font-weight="700" fill="#F0F3F6" text-anchor="middle" letter-spacing="0.1em">AI/ML</text>
+  </g>
+
+  <!-- Bottom Location & Coordinate Metadata -->
+  <text x="1136" y="248" class="mono meta-text" font-size="11" text-anchor="end">BHOPAL, INDIA  ·  23.2599° N, 77.4126° E</text>
 </svg>

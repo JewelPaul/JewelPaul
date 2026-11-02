@@ -1,102 +1,128 @@
-<!-- Repository-owned SVG header: no external banner service required. -->
 <p align="center">
-  <img src="./assets/profile-header.svg" alt="Jewel Gabriel Paul — B.Tech CSE, Artificial Intelligence and Machine Learning" width="100%" />
+  <img src="./assets/profile-header.svg" alt="Jewel Gabriel Paul — Technical Portfolio" width="100%" />
 </p>
 
 <p align="center">
-  <a href="mailto:jewelpaul2513@gmail.com">Email</a>
-  &nbsp;·&nbsp;
   <a href="https://github.com/JewelPaul">GitHub</a>
   &nbsp;·&nbsp;
-  Bhopal, India
+  <a href="mailto:jewelpaul2513@gmail.com">Email</a>
+  &nbsp;·&nbsp;
+  Bhopal, Madhya Pradesh, India
 </p>
 
 ---
 
 ## About
 
-I'm a second-year **B.Tech Computer Science and Engineering (AI & ML)** student at **Lakshmi Narain College of Technology and Science (LNCTS)**.
+I am a second-year **B.Tech Computer Science and Engineering (Artificial Intelligence and Machine Learning)** student at **Lakshmi Narain College of Technology and Science (LNCTS)**, Bhopal.
 
-My interests include applied artificial intelligence, multimodal AI workflows and digital product development. I work with multiple AI tools and models, using them for research, planning, comparing approaches, prototyping and iterative improvement. I’m especially interested in how different models and modalities can be combined to solve practical problems.
+My work centers on applied artificial intelligence, multimodal AI workflows, and digital product development. Rather than treating AI as a single-model prompt box, I focus on how multiple complementary models and tools can be orchestrated together—selecting different systems for research, structured reasoning, comparative analysis, multimodal exploration, prototyping, and iterative product refinement.
 
-I enjoy exploring product ideas and developing them into useful digital experiences while continuing to strengthen my technical foundations.
+I am driven by taking software ideas beyond abstract concepts and engineering practical, clean digital experiences while continuously building strong engineering fundamentals.
 
-## Areas of Interest
+---
 
-- Applied Artificial Intelligence and Machine Learning
-- Multimodal AI and multi-model workflows
-- Generative AI tools and practical applications
-- Web applications and digital product development
-- Product experience, interaction design and prototyping
+## AI Workflows & Multi-Model Systems
 
-## AI Tools & Platforms
+A core strength of my workflow is combining distinct AI platforms to overcome individual model blind spots and achieve higher-fidelity outcomes:
 
-**Tools I work with:** ChatGPT · Google Gemini · Muse · Google Antigravity · Ollama
+* **Primary Platforms:** ChatGPT, Google Gemini, Muse, Google Antigravity, and Ollama (local model inference).
+* **Multi-Model Orchestration & Comparative Reasoning:** Querying parallel model architectures on complex problems to cross-evaluate proposed solutions, contrast differing approaches, and synthesize robust implementations.
+* **Context Engineering & System Design:** Designing structured context prompts, persona constraints, and iterative feedback loops that produce reproducible technical plans and clean code.
+* **Multimodal Exploration:** Utilizing cross-modal inputs (vision, structured datasets, and natural language) to explore interface layouts, workflows, and visual architectures.
+* **AI-Assisted Prototyping & Iteration:** Accelerating the feedback cycle from conceptual architecture to functional web prototypes through continuous, disciplined refinement.
 
-**Practical workflows:** AI-assisted research and planning · Model comparison · Prompt design · Multimodal exploration · Prototyping and iterative refinement
+---
 
 ## Selected Projects
 
 ### [BravoMail](https://github.com/JewelPaul/BRAVOMAIL)
-**Web project · Temporary email**
+**Active Web Project · Disposable Email Platform**
 
-A browser-based temporary email project focused on disposable email addresses and a straightforward inbox experience. The project has been developed through iterative product work and AI-assisted planning.
+An independently developed, browser-based temporary email platform created to give users instant disposable email addresses and a privacy-focused inbox experience without registration.
+
+* **Frontend Architecture:** Built with TypeScript, React 18, and Vite, featuring a component system powered by Tailwind CSS and Radix UI primitives.
+* **API Integration & Resilience:** Integrated with the `api.mail.tm` REST API with an automated CORS proxy fallback detection mechanism and exponential retry handling to maintain service reliability.
+* **Heuristic OTP Detection:** Designed a client-side regex engine (`otpDetection.ts`) that automatically analyzes incoming email text to extract, highlight, and enable one-click copying of numeric and alphanumeric authentication codes.
+* **State & Synchronization:** Utilizes TanStack React Query for efficient data fetching, caching, and periodic polling of inbox states.
+
+---
 
 ### AI-Integrated Financial Management
-**Upcoming project · Personal finance and AI**
+**Upcoming Project · Personal Finance & Applied AI**
 
-A planned financial management application exploring how AI can support everyday money tracking and financial understanding. The concept includes transaction records, financial summaries and intelligent assistance.
+A planned personal finance web application exploring how ambient AI assistance can simplify everyday financial tracking, budgeting, and account comprehension.
+
+* **Core Focus:** Clean transaction recording, automatic category classification, and structured financial summaries.
+* **AI Assistance:** Context-aware insights that explain spending patterns and provide intelligent query-based financial analysis without exposing sensitive credentials.
+* **Status:** In concept development and architectural planning.
+
+---
 
 ### Interactive E-commerce Experience
-**Upcoming project · E-commerce**
+**Upcoming Project · Digital Product Experience**
 
-An upcoming e-commerce concept focused on a more engaging, realistic shopping journey. Planned areas include product discovery, interactive shopping flows, checkout, payment options and order management.
+An upcoming web application focused on building a holistic, interactive shopping journey that moves beyond basic product catalog listings.
+
+* **Core Focus:** Dynamic product discovery flows, interactive cart operations, streamlined checkout state simulation, and order lifecycle tracking.
+* **Design Objectives:** Polished interaction design, responsive desktop and mobile viewports, and clean UI state machines.
+* **Status:** In design and interface prototyping.
+
+---
+
+## Focus Areas & Technical Toolkit
+
+### Areas of Focus
+Applied Artificial Intelligence · Multimodal AI Systems · Machine Learning & Deep Learning Foundations · AI-Assisted Product Workflows · Digital Product Development · Web Application Architecture
+
+### Languages & Web Technologies
+* **Languages:** TypeScript, JavaScript, HTML5, CSS3, Python
+* **Frontend Frameworks & Libraries:** React 18, Vite, Tailwind CSS, Radix UI primitives, TanStack React Query
+* **Tooling & Environment:** Git, GitHub, Node.js, VS Code, PowerShell
+
+### AI Platforms in Workflow
+ChatGPT · Google Gemini · Ollama · Google Antigravity · Muse
+
+---
 
 ## Education
 
 **Lakshmi Narain College of Technology and Science (LNCTS)**  
-B.Tech — Computer Science & Engineering (Artificial Intelligence & Machine Learning)  
-Currently pursuing **Second Year**
+*Bachelor of Technology (B.Tech) — Computer Science & Engineering (Artificial Intelligence & Machine Learning)*  
+Currently pursuing **Second Year** · Bhopal, India
 
-| Qualification | Board | Result |
-|:--|:--|--:|
-| Class XII | CBSE | **82%** |
-| Class X | CBSE | **95%** |
+| Qualification | Board / University | Result |
+| :--- | :--- | :--- |
+| **B.Tech (CSE — AI & ML)** | LNCTS (RGPV) | *In Progress (2nd Year)* |
+| **Class XII (Senior Secondary)** | CBSE | **82%** |
+| **Class X (Secondary)** | CBSE | **95%** |
 
-## Certifications & Professional Development
+---
 
-| Credential | Organisation |
-|:--|:--|
-| Generative AI Mastermind | Outskill |
-| Accelerating Deep Learning with GPUs | IBM — Cognitive Class |
-| AI in Digital Marketing | The Digital School |
-| Graphic Designing Internship | Codec Technologies Pvt. Ltd. |
-| Guiding Students Towards Modern Technology & Industry-Relevant Careers — Workshop | SkillSpardha |
+## Certifications & Internship
 
-## Internship Experience
+### Certifications & Professional Development
+* **Generative AI Mastermind** — Outskill
+* **Accelerating Deep Learning with GPUs** — IBM, Cognitive Class
+* **AI in Digital Marketing** — The Digital School
+* **Guiding Students Towards Modern Technology & Industry-Relevant Careers** — SkillSpardha Workshop
 
-**Graphic Designing Intern — Codec Technologies Pvt. Ltd.**
+### Internship Experience
+* **Graphic Designing Intern** — Codec Technologies Pvt. Ltd.  
+  *Completed a one-month internship programme focusing on visual communication, digital design assets, and layout principles.*
 
-Completed a one-month graphic design internship programme.
+---
 
-## GitHub Activity
+## Contact
 
-The contribution animation below is generated from GitHub contribution data and published to this repository's `output` branch by GitHub Actions. It may take the first workflow run to appear.
+Feel free to connect or reach out regarding projects, technology collaborations, or engineering ideas:
 
-<p align="center">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/JewelPaul/JewelPaul/output/github-contribution-grid-snake-dark.svg" />
-    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/JewelPaul/JewelPaul/output/github-contribution-grid-snake.svg" />
-    <img alt="GitHub contribution activity animation" src="https://raw.githubusercontent.com/JewelPaul/JewelPaul/output/github-contribution-grid-snake.svg" width="100%" />
-  </picture>
-</p>
+* **GitHub:** [github.com/JewelPaul](https://github.com/JewelPaul)
+* **Email:** [jewelpaul2513@gmail.com](mailto:jewelpaul2513@gmail.com)
+* **Location:** Bhopal, Madhya Pradesh, India
 
-## Connect
-
-- **Email:** [jewelpaul2513@gmail.com](mailto:jewelpaul2513@gmail.com)
-- **GitHub:** [github.com/JewelPaul](https://github.com/JewelPaul)
-- **Location:** Bhopal, Madhya Pradesh, India
+<br />
 
 <p align="center">
-  <sub>Learn · Experiment · Build · Improve</sub>
+  <sub>Curated technology portfolio · Jewel Gabriel Paul · Bhopal, India</sub>
 </p>
