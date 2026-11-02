@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="300" viewBox="0 0 1200 300" role="img" aria-labelledby="title desc">
+  <title id="title">Jewel Gabriel Paul</title>
+  <desc id="desc">B.Tech Computer Science student specialising in Artificial Intelligence and Machine Learning, interested in AI workflows, multimodal tools and digital product development.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#101827"/>
+      <stop offset="55%" stop-color="#132B3A"/>
+      <stop offset="100%" stop-color="#075B5C"/>
+    </linearGradient>
+    <radialGradient id="glow">
+      <stop offset="0%" stop-color="#2DD4BF" stop-opacity=".28"/>
+      <stop offset="100%" stop-color="#2DD4BF" stop-opacity="0"/>
+    </radialGradient>
+    <pattern id="grid" width="28" height="28" patternUnits="userSpaceOnUse">
+      <path d="M28 0H0V28" fill="none" stroke="#D7F7F2" stroke-opacity=".055" stroke-width="1"/>
+    </pattern>
+  </defs>
+  <rect width="1200" height="300" rx="22" fill="url(#bg)"/>
+  <rect width="1200" height="300" rx="22" fill="url(#grid)"/>
+  <circle cx="1015" cy="145" r="260" fill="url(#glow)"/>
+  <path d="M785 0C870 65 870 220 1010 300" fill="none" stroke="#5EEAD4" stroke-opacity=".16" stroke-width="2"/>
+  <path d="M850 0C935 75 935 225 1080 300" fill="none" stroke="#5EEAD4" stroke-opacity=".12" stroke-width="2"/>
+  <path d="M0 252C230 210 430 320 690 250" fill="none" stroke="#5EEAD4" stroke-opacity=".13" stroke-width="2"/>
+  <rect x="76" y="66" width="5" height="165" rx="2.5" fill="#5EEAD4"/>
+  <text x="108" y="125" fill="#F8FAFC" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="46" font-weight="700" letter-spacing=".4">JEWEL GABRIEL PAUL</text>
+  <text x="110" y="166" fill="#C9E7E5" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="21" font-weight="500">B.Tech CSE · Artificial Intelligence &amp; Machine Learning</text>
+  <text x="110" y="208" fill="#8FE2D7" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="16" letter-spacing=".25">AI WORKFLOWS  /  MULTIMODAL TOOLS  /  DIGITAL PRODUCTS</text>
+  <g transform="translate(965 147)">
+    <circle r="78" fill="#0B222D" fill-opacity=".55" stroke="#5EEAD4" stroke-opacity=".28" stroke-width="1.5"/>
+    <circle r="54" fill="none" stroke="#5EEAD4" stroke-opacity=".55" stroke-width="1.5"/>
+    <circle r="30" fill="#0F766E" fill-opacity=".55" stroke="#99F6E4" stroke-opacity=".7" stroke-width="1.5"/>
+    <path d="M-53 0H53M0 -53V53" stroke="#99F6E4" stroke-opacity=".25" stroke-width="1"/>
+    <circle cx="0" cy="-54" r="5" fill="#99F6E4"/>
+    <circle cx="47" cy="27" r="5" fill="#5EEAD4"/>
+    <circle cx="-38" cy="38" r="5" fill="#5EEAD4"/>
+    <text x="0" y="7" fill="#F0FDFA" text-anchor="middle" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="21" font-weight="700">AI/ML</text>
+  </g>
+  <text x="1120" y="270" fill="#D1FAE5" fill-opacity=".7" text-anchor="end" font-family="Inter, Segoe UI, Arial, sans-serif" font-size="12" letter-spacing="2">BHOPAL · INDIA</text>
+</svg>
