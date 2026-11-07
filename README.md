@@ -7,10 +7,6 @@
     <img src="https://img.shields.io/badge/GitHub-JewelPaul-0D1117?style=for-the-badge&logo=github&logoColor=white" alt="GitHub" />
   </a>
   &nbsp;
-  <a href="mailto:jewelpaul2513@gmail.com">
-    <img src="https://img.shields.io/badge/Email-jewelpaul2513%40gmail.com-0EA5E9?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" />
-  </a>
-  &nbsp;
   <img src="https://img.shields.io/badge/Location-Bhopal%2C%20India-1E293B?style=for-the-badge&logo=googlemaps&logoColor=2DD4BF" alt="Location" />
 </p>
 
@@ -152,7 +148,6 @@ Currently pursuing **Second Year** · Bhopal, India
 ## 📬 Connect
 
 * **GitHub:** [github.com/JewelPaul](https://github.com/JewelPaul)
-* **Email:** [jewelpaul2513@gmail.com](mailto:jewelpaul2513@gmail.com)
 * **Location:** Bhopal, Madhya Pradesh, India
 
 <br />
